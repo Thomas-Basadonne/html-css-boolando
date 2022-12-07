@@ -1,0 +1,38 @@
+/* HEADER */
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    justify-content: space-between; 
+    color: aliceblue;
+    min-height: 2.8rem;
+    position: fixed;
+    top: 0;
+    width: 1200px;
+}
+
+ul>*{
+    display: inline ;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo{
+    width: 8rem;
+    
+}
+
+.icone{
+    padding-right: 0.3rem;
+}
+
+nav {
+    padding-left: 0.3rem;
+}
+
+/* MAIN */
+
