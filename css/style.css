@@ -36,7 +36,72 @@ nav {
 
 /* MAIN */
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    justify-content: space-between;
+    row-gap: 30%;
+}
 
+.col{
+    width: 30%;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.heart{
+    background-color: aliceblue;
+    position: absolute;
+    right: 0;
+    top: 0.4rem;
+    padding: 0.5rem;
+}
+
+.discount{
+    background-color: red;
+    color: aliceblue;
+    font-size: smaller;
+    padding: 0.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 6rem;
+}
+
+.sostenibilità {
+    background-color: green;
+    color: aliceblue;
+    font-size: smaller;
+    padding: 0.2rem;
+    position: absolute;
+    left: 2.4rem;
+    bottom: 6rem;
+}
+
+#sostenibilità {
+    background-color: green;
+    color: aliceblue;
+    font-size: smaller;
+    padding: 0.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 6rem;
+}
+.copertina{
+    display: block;
+}
+
+.immagine{
+    display: none;
+}
+
+.cambio-img:hover .copertina{
+    display: none;
+}
+
+.cambio-img:hover .immagine {
+    display: block;
+}
 
 /* FOOTER */
 
