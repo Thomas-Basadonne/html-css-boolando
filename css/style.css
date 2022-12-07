@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
 
 header{
@@ -10,6 +14,7 @@ header{
     position: fixed;
     top: 0;
     width: 1200px;
+    z-index: 1;
 }
 
 ul>*{
@@ -32,9 +37,13 @@ a{
 
 nav {
     padding-left: 0.3rem;
+    font-size: x-small;
 }
 
 /* MAIN */
+main{
+    z-index: 0;
+}
 
 .row{
     display: flex;
@@ -56,6 +65,12 @@ nav {
     right: 0;
     top: 0.4rem;
     padding: 0.5rem;
+    cursor: pointer;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
 }
 
 .discount{
@@ -103,6 +118,15 @@ nav {
     display: block;
 }
 
+.red{
+    color: red;
+}
+
+.barrato{
+    text-decoration: line-through;
+    color: gray;
+}
+
 /* FOOTER */
 
 footer{
@@ -125,5 +149,5 @@ h2{
 
 div>p{
     font-size: small;
-    padding-bottom: 0.2rem;
+    padding: 0.2rem;
 }
